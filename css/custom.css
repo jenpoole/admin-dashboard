@@ -58,6 +58,50 @@ body {
   margin: 0;
 }
 
+/****************
+ Sidebar Navigation
+****************/
+
+.nav-stacked > li + li {
+  margin-top: 1em;
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.nav-pills > li > a {
+  color: #777;
+}
+
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:focus, 
+.nav-pills > li.active > a:hover {
+  background-color: #333;
+}
+
+li.navigation-header {
+  color: #3498db;
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1em 0;
+  padding-left: 15px;
+}
+
+/****************
+ Dashboard Content
+****************/
+
+.page-header {
+  border-bottom: 1px solid #333;
+}
+
+
+
 
 /****************
  Footer
