@@ -14,7 +14,7 @@ new Chartist.Pie('.ct-chart-one', data, {
 
 // second pie chart
 var data = {
-  series: [8, 1, 7]
+  series: [5, 2, 8]
 };
 
 var sum = function(a, b) { return a + b };
@@ -36,5 +36,21 @@ var sum = function(a, b) { return a + b };
 new Chartist.Pie('.ct-chart-three', data, {
   labelInterpolationFnc: function(value) {
     return Math.round(value / data.series.reduce(sum) * 100) + '%';
+  }
+});
+
+
+// table chart
+new Chartist.Line('.ct-chart-table', {
+  labels: ['Mon', 'Tue', 'Wed', 'Thur', 'Fri'],
+  series: [
+    [12, 9, 7, 8, 5],
+    [2, 1, 3.5, 7, 3],
+    [1, 3, 4, 5, 6]
+  ]
+}, {
+  fullWidth: true,
+  chartPadding: {
+    right: 40
   }
 });
