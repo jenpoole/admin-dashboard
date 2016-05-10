@@ -100,7 +100,28 @@ li.navigation-header {
   border-bottom: 1px solid #333;
 }
 
+/*pie charts*/
 
+.ct-series-a .ct-area, 
+.ct-series-a .ct-slice-pie {
+  fill: #3498db;
+}
+
+.ct-series-b .ct-area, 
+.ct-series-b .ct-slice-pie {
+  fill: #3db1ff;
+}
+
+.ct-series-c .ct-area, 
+.ct-series-c .ct-slice-pie {
+  fill: #2980b9;
+}
+
+.charts {
+  text-align: center;
+}
+
+/*widgets*/
 
 
 /****************
