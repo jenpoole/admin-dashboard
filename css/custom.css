@@ -121,7 +121,49 @@ li.navigation-header {
   text-align: center;
 }
 
-/*widgets*/
+/*widgets Panels */
+.panel {
+  background: transparent;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.panel i {
+  font-size: 4em;
+}
+
+.panel-success {
+  border-color: #2ecc71;
+}
+
+.panel-success > .panel-heading {
+  color: #fff;
+  background: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.panel-success i {
+  color: #2ecc71;
+}
+
+.panel-danger {
+  border-color: #e74c3c;
+}
+
+.panel-danger > .panel-heading {
+  color: #fff;
+  background: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.panel-danger i {
+  color: #e74c3c;
+}
+
+/*tables*/
+
 
 
 /****************
